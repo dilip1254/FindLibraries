@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headrow{
+    
+    background-color: white;
+    
+    height: 66px;
+}
+.c1{
+    
+    padding: 10px 10px 0px 20px;
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+#img{
+    height: 40px;
+    width: 44%;
+}

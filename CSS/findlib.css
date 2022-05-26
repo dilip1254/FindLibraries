@@ -1,0 +1,85 @@
+
+.c2{
+    
+    font-size: medium;
+    font-style: initial;
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+.r2{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('bg.png');
+    background-attachment: fixed;
+    height: 450px;
+    padding: 200px;
+    padding-left: 440px;
+
+}
+h2{
+    padding-bottom: 10px;
+    
+}
+.r3{
+    
+    height: 120px;
+    padding-left: 570px;
+    padding-top: 60px;
+}
+.r4{
+    
+    height: 300px;
+    padding: 100px;
+    padding-left: 300px;
+}
+.hyd{
+    border: solid rgb(51, 49, 49);
+    border-radius:50%;
+    height: 156px;
+}
+#search{
+    width: 400px;
+}
+.footer{
+    
+    height: 150px;
+    background-color:#333333;
+    padding-top: 50px;
+    padding-left: 400px;
+}
+.footer>a{
+    padding-right: 70px;
+    color: white;
+    
+}
+p{
+   padding-top: 30px; 
+   padding-left: 150px;
+   color: #a9a9a9;
+   font-size: small;
+}
+@media(max-width:740px) {
+    #img{
+        width: 24%;
+        height: 40px;
+    }
+    .c1{
+        width: 20%;
+    }
+    .c2{
+        width: 80%;
+    }
+}
+.fa-sign-in-alt{
+    color: #5f5a5a;
+    float: right;
+    padding: 20px 5px 15px 15px;
+}
+.fa-user{
+    color: #5f5a5a;
+    float: right;
+    padding: 3.9px 5px 15px 15px;
+}
+.set{
+    padding: 20px 20px 20px 20px;
+}

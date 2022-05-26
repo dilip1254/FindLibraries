@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>login page</title>
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="CSS/loginmodal.css">
+        <script>
+            function verify(){
+                var pw = document.getElementById("password").value;
+                if(pw == ""){
+                    document.getElementById("message").innerHTML = "**Fill the password please!";  
+                    return false;  
+                }
+               
+            }
+            
+
+        </script>
+    </head>
+    <body>
+        <div class="c">
+           <a href="PGlifehome.html"><button type="button" class="btn-close" aria-label="Close"></button></a>
+            <div class="container">
+                
+                <form method="post" onsubmit="return verify()" class="form" action="login_form.php">
+                    <h3><b>Login</b></h3>
+                    <br><br>
+                    Email <br><input class="set" type="text" name = "email" id="email"><br><br>
+                    Password <br><input class="set" type="password" name="password" id="password">
+                    <span id = "message" style="color:red"> </span>  
+                    
+                    dont have an account? <a href="#">Signin</a><br><br><br>
+                    
+                    <button type="submit" class="btn btn-primary">login</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
