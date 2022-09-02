@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.c{
+    
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    border-radius: 10%;
+    border: solid grey;
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    left: 470px;
+    top: 100px;
+}
+.form{
+    padding: 40px 40px 100px 50px;
+}
+.set{
+    width: 240px;
+}
+.btn-close{
+    position: absolute;
+    left: 890px;
+    top: 80px;
+}
