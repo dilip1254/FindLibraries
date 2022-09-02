@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Signup page</title>
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="CSS/loginmodal.css">
+        <script>
+            function verify(){
+                var pw = document.getElementById("password").value;
+                if(pw == ""){
+                    document.getElementById("message").innerHTML = "**Fill the password please!";  
+                    return false;  
+                }
+               
+            }
+            
+
+        </script>
+        
+    </head>
+    <body>
+        <div class="c">
+           <a href="index.html"><button type="button" class="btn-close" aria-label="Close"></button></a>
+            <div class="container_signin">
+                
+                <form method="post"  class="form" action="#">
+                    <h3><b>Signup</b></h3><br>
+                    Email <br><input class="set" type="text" name = "email" id="email"><br><br>
+                    Password <br><input class="set" type="password" name="password" id="password"><br><br>
+                    Name <br><input class="set" type="text" name="name" id="name">
+                    <span id = "message" style="color:red"> </span><br><br>
+                    
+                    <button type="submit" onclick="verify()" class="btn btn-primary">Signin</button>
+                    <p>already have an account? <a href="loginmodal.html">login</a> </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
