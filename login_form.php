@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$db_hostname = "127.0.0.1:3307";
+$db_hostname = "localhost";
 $db_username = "root";
-$db_password = "";
-$db_name = "login";
+$db_password = "root";
+$db_name = "lib";
 
 $conn = mysqli_connect($db_hostname,$db_username,$db_password,$db_name);
 if(!$conn){
@@ -37,7 +37,7 @@ if(!$conn){
         <a href="dashboard.php">click here</a>
         <?php
     } else {
-        echo "Login Failed<br/>";
+        echo "Login Failed";
     }
 
     mysqli_close($conn);
