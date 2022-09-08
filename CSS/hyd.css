@@ -9,12 +9,17 @@
     height: 40px;
     width: 44%;
 }
-.r2{
-    background-color: antiquewhite;
-    height: 600px;
+.hyd{
+    background-color: rgb(179, 143, 108);
+    height: 700px;
     width: 100%;
 }
+.chen{
+    background-color: rgb(141, 136, 131);
+    height: 700px;
+    width: 100%;
+}
+
 .font{
     font-size: 20px;
 }
-
