@@ -6,7 +6,20 @@
     <link rel="stylesheet" href="CSS/findlib.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <meta name="viewport" content="width = device-width , initial scale = 1">
+    <meta name="viewport" content="width=device-width , initial scale = 1.0">
+
+    <script>
+        function search(){
+            var res = document.getElementById("search").value;
+            if(res == "Hyderabad" || res == "hyderabad"){
+                window.open("hyderabad.html");
+            }
+            else{
+                window.alert("not found");
+            }
+        }
+    </script>
+
 </head>
 <body>
     <div class="headrow sticky-top">
@@ -27,7 +40,7 @@
     <div class="r2">
         <h2 style="color: white;">Its Never Too Late To Learn</h2>
         <input id = "search" type="search" value="Enter your city for Libraries near you">
-        <input  type="button" value="search">
+        <input  type="button" onclick="search()" value="search">
 
     </div>
     <div class="r3 ">
@@ -36,16 +49,16 @@
   
     <div class="r4">
         <a class="set" href="hyderabad.html">
-            <img class = "hyd " src="images/hyderabad.png" alt="hydcity">
+            <img  src="images/hyderabad.png" alt="hydcity">
         </a>
-        <a class="set" href="propertylist.html">
-            <img class = "hyd" src="images/chennai.png" alt="chennai">
+        <a class="set" href="Chennai.html">
+            <img  src="images/chennai.png" alt="chennai">
         </a>
-        <a class="set" href="propertylist.html">
-            <img class = "hyd" src="images/mumbai.png" alt="mumbai">
+        <a class="set" href="Chennai.html">
+            <img  src="images/mumbai.png" alt="mumbai">
         </a>
-        <a class="set" href="propertylist.html">
-            <img class = "hyd" src="images/bangalore.png" alt="banglore">
+        <a class="set" href="Chennai.html">
+            <img  src="images/bangalore.png" alt="banglore">
         </a>
     </div>
     <div class="footer">
