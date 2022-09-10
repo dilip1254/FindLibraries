@@ -11,7 +11,11 @@
     <script>
         function search(){
             var res = document.getElementById("search").value;
-            if(res == "Hyderabad" || res == "hyderabad"){
+            
+            if(res == "chennai" || "Chennai"){
+                window.open("Chennai.html");
+            }
+            if(res == "hyderabad" || "Hyderabad"){
                 window.open("hyderabad.html");
             }
             else{
@@ -42,6 +46,19 @@
         <input id = "search" type="search" value="Enter your city for Libraries near you">
         <input  type="button" onclick="search()" value="search">
 
+    </div>
+    <div id = slide-frame>
+        <div class="slide-images">
+            <div class="img-container">
+                <img src="images/lib1.jpg" alt="img1" height="500px" width="1000px">
+            </div>
+            <div class="img-container">
+                <img src="images/lib2.jpg" alt="img2" height="500px" width="1000px">
+            </div>
+            <div class="img-container">
+                <img src="images/lib3.jpg" alt="img2" height="500px" width="1000px">
+            </div>
+        </div>
     </div>
     <div class="r3 ">
         <h1>Major Cities</h1>
