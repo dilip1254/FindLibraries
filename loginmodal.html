@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="CSS/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/bootstrap.css">
         <link rel="stylesheet" href="CSS/loginmodal.css">
+        
         <script>
             function verify(){
                 var pw = document.getElementById("password").value;
@@ -28,9 +29,12 @@
                     Password <br><input class="set" type="password" name="password" id="password">
                     <span id = "message" style="color:red"> </span>  
                     
-                    dont have an account? <a href="#">Signin</a><br><br><br>
+                    dont have an account? <a href="signup_modal.html">Signin</a><br><br>
                     
-                    <button type="submit" onclick="verify()" class="btn btn-primary">login</button>
+                    <button type="submit" onclick="verify()" class="btn btn-primary">login</button><br><br> or signin with<br><br>
+
+                    <button type="button" class="btn btn-primary">Google<span class="bi bi-google"></span></button>
+
                 </form>
             </div>
         </div>
